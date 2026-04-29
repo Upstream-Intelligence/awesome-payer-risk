@@ -1,5 +1,17 @@
 # awesome-payer-risk
 
+<div align="center">
+
+<img src="https://upstream.cx/brand/upstream-wordmark-light.svg" alt="Upstream" width="160" />
+
+**Curated resources for healthcare payer risk, denial prevention, and revenue cycle management.**
+
+Maintained by [Upstream Intelligence](https://upstream.cx) · [Contribute →](./CONTRIBUTING.md) · [Newsletter →](https://upstream.cx/newsletter)
+
+</div>
+
+---
+
 > Curated resources for healthcare payer risk, denial prevention, and revenue cycle management.
 
 Healthcare revenue cycle management is fragmented. Payer policies live in PDFs buried on MACs websites. Appeal templates exist in consulting decks behind paywalls. Good tools are hard to find. This list pulls the best public resources into one place.
@@ -124,3 +136,7 @@ Rules:
 ---
 
 Built by [Upstream Intelligence](https://upstream.cx). Read the methodology at [engine.upstream.cx](https://engine.upstream.cx). Pioneer Program: [upstream.cx/pioneer](https://upstream.cx/pioneer).
+
+---
+
+Maintained by [Upstream Intelligence](https://upstream.cx) — the Care Intelligence Platform for healthcare practices. [upstream.cx/newsletter](https://upstream.cx/newsletter) for monthly payer behavior updates.
