@@ -2,7 +2,10 @@
 
 <div align="center">
 
-<img src="https://upstream.cx/brand/upstream-wordmark-light.svg" alt="Upstream" width="160" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/upstream-wordmark-dark.svg">
+  <img src=".github/assets/upstream-wordmark-light.svg" alt="Upstream" width="160" />
+</picture>
 
 **Curated resources for healthcare payer risk, denial prevention, and revenue cycle management.**
 
