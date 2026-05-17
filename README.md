@@ -1,15 +1,20 @@
-# awesome-payer-risk
-
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/upstream-wordmark-dark.svg">
-  <img src=".github/assets/upstream-wordmark-light.svg" alt="Upstream" width="160" />
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/Upstream-Intelligence/.github/main/.github/assets/upstream-wordmark-dark.svg">
+  <img src="https://raw.githubusercontent.com/Upstream-Intelligence/.github/main/.github/assets/upstream-wordmark-light.svg"
+       alt="Upstream" width="220" />
 </picture>
+
+# awesome-payer-risk
 
 **Curated resources for healthcare payer risk, denial prevention, and revenue cycle management.**
 
-Maintained by [Upstream Intelligence](https://upstream.cx) · [Contribute →](./CONTRIBUTING.md) · [Newsletter →](https://upstream.cx/newsletter)
+[![License](https://img.shields.io/badge/license-CC0_1.0-0454F1)](LICENSE)
+[![upstream.cx](https://img.shields.io/badge/upstream-cx-0454F1)](https://upstream.cx)
+[![Newsletter](https://img.shields.io/badge/newsletter-subscribe-0454F1)](https://upstream.cx/newsletter)
+[![Contribute](https://img.shields.io/badge/PRs-welcome-0454F1)](./CONTRIBUTING.md)
 
 </div>
 
@@ -47,6 +52,11 @@ Contributions welcome. Open a PR with your addition.
 - [CMS SynPUF (Synthetic Public Use Files)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files): Synthetic Medicare claims data for building and testing denial prediction models without real patient data.
 - [Noridian LCD Search](https://www.cms.gov/medicare-coverage-database/search/search.aspx?Cntrctr=1&SearchType=Advanced&CntrctrSelected=373%7C0&s=30&DocType=LCD): Noridian (Jurisdiction E and F) LCDs. One of the largest MAC jurisdictions.
 - [Palmetto GBA LCDs](https://www.palmettogba.com/palmetto/providers.nsf/content/HH_OHC_LCDs): Palmetto GBA (Jurisdiction J) LCDs covering Southeast US.
+- [Aetna Clinical Policy Bulletins](https://www.aetna.com/health-care-professionals/clinical-policy-bulletins.html): Aetna's publicly searchable medical, dental, and pharmacy coverage policies. No account required to browse.
+- [Anthem Provider Medical Policies](https://www.anthem.com/provider/policies/clinical-guidelines/): Elevance / Anthem medical policies and clinical UM guidelines by plan. Publicly accessible; covers commercial and Medicare Advantage lines.
+- [BCBS Federal Employee Program Medical Policies](https://fepblue.org/benefit-plans/medical-policies-and-utilization-management-guidelines): FEP Blue's publicly posted medical policies and UM guidelines for the largest single federal health plan.
+- [UnitedHealthcare Commercial Medical Policies](https://www.uhcprovider.com/en/policies-protocols/commercial-policies.html): UHC's publicly browsable commercial medical and drug policies, reimbursement policies, and clinical guidelines by affiliate plan.
+- [CMS Internet-Only Manuals (IOMs)](https://www.cms.gov/regulations-and-guidance/guidance/manuals/internet-only-manuals-ioms): CMS operational manuals including the Claims Processing Manual (Pub. 100-04). Definitive rules for how MACs adjudicate claims.
 
 ---
 
@@ -60,10 +70,18 @@ Contributions welcome. Open a PR with your addition.
 - [OIG Compliance Guidance](https://oig.hhs.gov/compliance/compliance-guidance/): Office of Inspector General compliance program guidance. Useful for building documentation practices that survive audits.
 - [CMS Medicare Appeals Process](https://www.cms.gov/medicare/appeals-grievances/medappeals): Official five-level Medicare appeals process. Know the deadlines and the escalation path.
 - [Noridian Self-Service Denial Appeals](https://noridianmedicare.com/web/jadme/topics/denials-and-appeals): Noridian-specific denial appeal filing instructions. Faster than calling.
+- [C2C Innovative Solutions  -  Medicare QIC](https://www.c2cinc.com/): CMS-contracted Qualified Independent Contractor handling Part A/B reconsideration appeals (Level 2). Submit appeals and track decisions here.
+- [Medicare.gov Appeals Guide](https://www.medicare.gov/appeals/): CMS consumer-facing walkthrough of all five Medicare appeal levels with deadlines, forms, and escalation instructions.
+- [Patient Advocate Foundation Resources](https://www.patientadvocate.org/explore-our-resources/): Free appeal letter templates, case management intake, and denial navigation guides for patients and billing staff.
 
 ---
 
 ## RCM Tools
+
+### Free CMS APIs and Data
+
+- [CMS Data at the Point of Care (DPC) API](https://dpc.cms.gov/): CMS bulk FHIR API giving providers access to their patients' historical Medicare claims data. Free; supports proactive denial avoidance workflows.
+- [Synthea Synthetic Patient Generator](https://github.com/synthetichealth/synthea): Open-source simulator producing realistic synthetic patient records in FHIR, HL7, and CSV. Build and test denial-prediction models without PHI.
 
 ### Open Source
 
@@ -138,7 +156,16 @@ Rules:
 
 ---
 
-Built by [Upstream Intelligence](https://upstream.cx). Read the methodology at [engine.upstream.cx](https://engine.upstream.cx). Pioneer Program: [upstream.cx/pioneer](https://upstream.cx/pioneer).
+## Related
+
+Part of the [Upstream Intelligence ecosystem](https://github.com/Upstream-Intelligence).
+
+- [upstream-mcp](https://github.com/Upstream-Intelligence/upstream-mcp) — MCP server for Claude
+- [upstream-skills](https://github.com/Upstream-Intelligence/upstream-skills) — Claude Code skills for billing teams
+- [upstream-community](https://github.com/Upstream-Intelligence/upstream-community) — open ML methodology
+- **awesome-payer-risk** — you are here
+
+Product: [upstream.cx](https://upstream.cx) · [Newsletter](https://upstream.cx/newsletter) · [Pricing](https://upstream.cx/pricing)
 
 ---
 
