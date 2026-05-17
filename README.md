@@ -138,7 +138,7 @@ Contributions welcome. Open a PR with your addition.
 - [upstream-community](https://github.com/Upstream-Intelligence/upstream-community): Reference ML implementations for denial prediction, payer clustering, and drift detection. Public CMS data only. MIT licensed.
 - [Upstream Blog](https://blog.upstream.cx): Monthly deep dives on payer behavior, regulatory changes, and operator playbooks.
 - [Upstream Newsletter](https://upstream.cx/newsletter): Monthly network signals digest. What the operator network is seeing right now in payer behavior.
-- [Pioneer Program](https://upstream.cx/pioneer): $49/mo locked for life. Founding 5 seats.
+- [Pioneer Program](https://upstream.cx/pioneer): Founding Pioneer beta. $49/mo locked for life.
 - [Free Claim Audit](https://upstream.cx/audit): Upload one claim file, get denial pattern analysis back. No credit card.
 - [API Documentation](https://upstream.cx/developers): REST API reference. OpenAPI spec, webhook contracts, rate limits.
 
